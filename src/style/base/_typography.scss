@@ -11,6 +11,9 @@ a {
   font-family: 'Signika', sans-serif;
   font-size: $default-font-size;
 }
+li {
+  font-family: 'Signika', sans-serif;
+}
 
 a,
 a:link,
@@ -41,6 +44,7 @@ a:hover {
 }
 
 .text-color-company {
+  font-family: 'Shrikhand', sans-serif;
   color: #50e3c2;
   font-size: inherit;
 }
