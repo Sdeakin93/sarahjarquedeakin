@@ -49,6 +49,7 @@
 
   .hero-cta {
     display: flex;
+    font-family: 'Shrikhand', sans-serif;
 
     @include respond(tab-port) {
       justify-content: center;
