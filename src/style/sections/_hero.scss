@@ -24,19 +24,7 @@
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
-  &__image {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
 
-    @include respond(tab-port) {
-      padding-bottom: 6.4rem;
-    }
-    @include respond(tab-land) {
-      height: 100%;
-    }
-  }
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;
