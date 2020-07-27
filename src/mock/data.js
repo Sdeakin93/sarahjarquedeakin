@@ -22,6 +22,11 @@ export const aboutData = {
   paragraphOne: 'From starting my career in Customer Service, to working in Marketing and moving into Engineering, I love all aspects of working in tech.',
   paragraphTwo: 'I am passionate about personal development, and I believe that with proper support, an individual can achieve anything they wish to within a company.',
   paragraphThree: 'Committed to diversity in business.',
+  skill1: 'JavaScript',
+  skill2: 'React',
+  skill3: 'Gatsby',
+  skill4: 'SEO',
+  skill5: 'Content Management',
   resume: 'https://github.com/Sdeakin93', // if no resume, the button will not show up
 };
 

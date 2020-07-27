@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, resume, skill1, skill2, skill3, skill4, skill5, } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -40,6 +40,21 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphThree}
                 </p>
+                <li className="about-wrapper__info-skill">
+                  {skill1}
+                </li>
+                <li className="about-wrapper__info-skill">
+                  {skill2}
+                </li>
+                <li className="about-wrapper__info-skill">
+                  {skill3}
+                </li>
+                <li className="about-wrapper__info-skill">
+                  {skill4}
+                </li>
+                <li className="about-wrapper__info-skill">
+                  {skill5}
+                </li>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
